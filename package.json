@@ -1,0 +1,21 @@
+{
+  "name": "cypress-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/cypress/bin/cypress run --spec cypress/integration/example.spec.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@applitools/eyes-cypress": "^3.10.2",
+    "cypress": "^4.4.1",
+    "mocha": "^7.1.2"
+  },
+  "include": [
+    "./node_modules/cypress",
+    "./node_modules/@applitools",
+    "cypress/**/*.js"
+  ]
+}
