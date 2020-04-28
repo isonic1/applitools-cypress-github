@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "./node_modules/cypress/bin/cypress run --spec cypress/integration/example.spec.js"
-  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
