@@ -8,7 +8,7 @@
   "devDependencies": {
     "@applitools/eyes-cypress": "^3.10.2",
     "cypress": "^4.4.1",
-    "mocha": "^7.1.2"
+    "mocha": "^10.2.0"
   },
   "include": [
     "./node_modules/cypress",
